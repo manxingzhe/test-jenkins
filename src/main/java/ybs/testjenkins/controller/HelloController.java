@@ -11,7 +11,7 @@ public class HelloController {
     @RequestMapping("/hello")
     @ResponseBody
     public String testHello(ModelMap modelMap){
-        modelMap.put("hello","hello world 110");
+        modelMap.put("hello","hello world 111");
         return "index";
     }
 }
