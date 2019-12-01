@@ -9,7 +9,7 @@ public class HelloController {
 
     @RequestMapping("/index")
     public String testHello(ModelMap modelMap){
-        modelMap.put("hello","hello world77");
+        modelMap.put("hello","hello world88");
         return "index";
     }
 }
