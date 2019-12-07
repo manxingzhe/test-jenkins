@@ -9,7 +9,6 @@ import org.springframework.web.bind.annotation.ResponseBody;
 public class HelloController {
 
     @RequestMapping("/hello")
-    @ResponseBody
     public String testHello(ModelMap modelMap){
         modelMap.put("hello","hello world 111");
         return "index";
